@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RunMyArrayList {
     public static void main(String[] args) {
-        MyList<String> my = new MyLinkedList<>();
+        MyList<String> my = new MyDoubleLinkedList<>();
 
         System.out.println("데이터 추가");
         my.add("김씨");
