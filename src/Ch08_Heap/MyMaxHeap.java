@@ -56,7 +56,7 @@ public class MyMaxHeap<T extends Comparable<T>> implements MyHeap<T> {
     public T pop() {
         T top = this.data[1];
         this.data[1] = this.data[this.size];
-        this.data[this.size--] = null;
+//        this.data[this.size--] = null;
         heapify(1);
 
         return top;
